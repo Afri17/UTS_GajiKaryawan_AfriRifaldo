@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GAJI KARYAWAN"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etNik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Induk Karyawan"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Karyawan"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etGajiPokok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gaji Pokok"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etTunjJabatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tunjangan Jabatan"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etHariKerja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah Hari Kerja"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HITUNG"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/tvTunjMakan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tunjangan Makan : "
+            android:textColor="#000000"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvTunjTransport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tunjangan Transportasi : "
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvGajiKotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gaji Kotor : "
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvGajiBersih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gaji Bersih : "
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
